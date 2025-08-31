@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3.6em; /* Aumentado ~20% de 3em */
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2.4em; /* Aumentado ~20% de 2em */
+    margin: 10px 0;
+}
+
+p {
+    font-size: 1.8em; /* Aumentado ~20% de 1.5em */
+    margin: 10px 0;
+}
+
+/* Fundos com gradientes */
+.home-bg {
+    background: linear-gradient(to bottom, #add8e6, #ffffff);
+}
+
+.cuidador-bg {
+    background: linear-gradient(to bottom, #d7bde2, #ffffff);
+}
+
+.faxina-bg {
+    background: linear-gradient(to bottom, #b2d8b2, #ffffff);
+}
+
+.encanador-bg {
+    background: linear-gradient(to bottom, #add8e6, #ffffff);
+}
+
+/* Grid para serviços na página inicial */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Aumentado minmax de 150px para 180px (~20%) */
+    gap: 24px; /* Aumentado ~20% de 20px */
+    max-width: 1200px;
+    width: 100%;
+    margin: 24px auto; /* Aumentado ~20% de 20px */
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 18px; /* Aumentado ~20% de 15px */
+    border-radius: 18px; /* Aumentado ~20% de 15px */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.8em; /* Aumentado ~20% de 1.5em */
+    min-height: 216px; /* Aumentado ~20% de 180px */
+    transition: transform 0.2s;
+}
+
+.service-item:hover, .service-item:focus {
+    transform: scale(1.05);
+    outline: 3px solid #ffeb3b;
+}
+
+.icon {
+    font-size: 3.6em; /* Aumentado ~20% de 3em */
+    margin-bottom: 12px; /* Aumentado ~20% de 10px */
+}
+
+/* Flexbox para categorias */
+.category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.category-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 144px; /* Aumentado ~20% de 120px */
+    height: 144px; /* Aumentado ~20% de 120px */
+    border-radius: 18px; /* Aumentado ~20% de 15px */
+    color: white;
+    font-size: 2.16em; /* Aumentado ~20% de 1.8em */
+    margin-bottom: 18px; /* Aumentado ~20% de 15px */
+}
+
+/* Flexbox para lista de profissionais */
+.professionals-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 18px; /* Aumentado ~20% de 15px */
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.professionals-list li {
+    background: white;
+    padding: 18px; /* Aumentado ~20% de 15px */
+    border-radius: 12px; /* Aumentado ~20% de 10px */
+    font-size: 1.8em; /* Aumentado ~20% de 1.5em */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #333;
+}
+
+/* Detalhes do profissional */
+.professional-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.phone {
+    background: white;
+    padding: 18px; /* Aumentado ~20% de 15px */
+    border-radius: 12px; /* Aumentado ~20% de 10px */
+    font-size: 2.16em; /* Aumentado ~20% de 1.8em */
+    margin: 18px 0; /* Aumentado ~20% de 15px */
+    border: 2px solid #333;
+}
+
+.note {
+    background: #3498db;
+    color: white;
+    padding: 24px; /* Aumentado ~20% de 20px */
+    border-radius: 12px; /* Aumentado ~20% de 10px */
+    font-size: 1.8em; /* Aumentado ~20% de 1.5em */
+    margin-top: 24px; /* Aumentado ~20% de 20px */
+    max-width: 600px;
+}
+
+/* Responsividade para smartphones */
+@media (max-width: 768px) {
+    body {
+        padding: 12px; /* Aumentado ~20% de 10px */
+    }
+
+    h1 {
+        font-size: 3em; /* Aumentado ~20% de 2.5em */
+    }
+
+    h2 {
+        font-size: 2.16em; /* Aumentado ~20% de 1.8em */
+    }
+
+    p {
+        font-size: 1.56em; /* Aumentado ~20% de 1.3em */
+    }
+
+    .services-grid {
+        grid-template-columns: repeat(auto-fit, minmax(144px, 1fr)); /* Aumentado ~20% de 120px */
+        gap: 18px; /* Aumentado ~20% de 15px */
+    }
+
+    .service-item {
+        min-height: 180px; /* Aumentado ~20% de 150px */
+        font-size: 1.44em; /* Aumentado ~20% de 1.2em */
+    }
+
+    .icon {
+        font-size: 3em; /* Aumentado ~20% de 2.5em */
+    }
+
+    .category-icon {
+        width: 120px; /* Aumentado ~20% de 100px */
+        height: 120px; /* Aumentado ~20% de 100px */
+        font-size: 1.8em; /* Aumentado ~20% de 1.5em */
+    }
+
+    .professionals-list li {
+        font-size: 1.56em; /* Aumentado ~20% de 1.3em */
+        flex-direction: column;
+        gap: 12px; /* Aumentado ~20% de 10px */
+        text-align: center;
+    }
+
+    .phone {
+        font-size: 1.8em; /* Aumentado ~20% de 1.5em */
+    }
+
+    .note {
+        font-size: 1.56em; /* Aumentado ~20% de 1.3em */
+    }
+}
+
+/* Telas muito pequenas (ex.: 320px) */
+@media (max-width: 400px) {
+    h1 {
+        font-size: 2.4em; /* Aumentado ~20% de 2em */
+    }
+
+    .service-item {
+        min-height: 144px; /* Aumentado ~20% de 120px */
+        font-size: 1.2em; /* Aumentado ~20% de 1em */
+    }
+
+    .icon {
+        font-size: 2.4em; /* Aumentado ~20% de 2em */
+    }
+}
