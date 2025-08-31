@@ -1,7 +1,7 @@
 # e-DOSO - Portal de Serviços Acessível
 
 Repositório do **e-DOSO**, um portal estático desenvolvido por:
-- **BRUNO LIMA **
+- **BRUNO LIMA**
 - **ERICO MACHADO**
 - **GABRIEL TAMEIRAO**
 - **MALWE NECKEL**
