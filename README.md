@@ -7,6 +7,7 @@ Repositório do **e-DOSO**, um portal estático desenvolvido por:
 - **MALWE NECKEL**
 - **PEDRO AUGUSTO CARDOSO**
 - **QUINTILIANO FERREIRA**
+
 Para conectar pessoas a serviços essenciais de forma simples e acessível, especialmente para idosos e pessoas com dificuldades visuais. 
 O site utiliza HTML, CSS e JavaScript, com design responsivo e elementos de grande tamanho para facilitar a navegação.
 
