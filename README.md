@@ -1,6 +1,8 @@
 # e-DOSO - Portal de Serviços Acessível
 
-Repositório de **HOMOLOGAÇÃO** do **e-DOSO**, um portal estático desenvolvido por:
+
+Repositório do **e-DOSO**, um portal estático desenvolvido por:
+
 - **BRUNO LIMA**
 - **ERICO MACHADO**
 - **GABRIEL TAMEIRAO**
@@ -19,12 +21,14 @@ O e-DOSO é um portal que lista serviços como babá, cuidador, faxina, encanado
 
 ```
 e-doso/
-├── index.html
-├── cuidador.html
-├── faxina.html
-├── encanador.html
-├── styles.css
-├── script.js
+
+ +--- index.html          # Página inicial com lista de serviços
+ +--- cuidador.html       # Página da categoria Cuidador
+ +--- faxina.html         # Página da categoria Faxina
+ +--- encanador.html      # Página de detalhe do profissional Encanador
+ +--- styles.css          # Estilos compartilhados
+ +--- script.js           # Funcionalidades JavaScript
+
 ```
 
 ## Requisitos
