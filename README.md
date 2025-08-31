@@ -19,12 +19,12 @@ O e-DOSO é um portal que lista serviços como babá, cuidador, faxina, encanado
 
 ```
 e-doso/
-├── index.html          # Página inicial com lista de serviços
-├── cuidador.html       # Página da categoria Cuidador
-├── faxina.html         # Página da categoria Faxina
-├── encanador.html      # Página de detalhe do profissional Encanador
-├── styles.css          # Estilos compartilhados
-├── script.js           # Funcionalidades JavaScript (ex.: ajuste de fonte)
+ +--- index.html          # Página inicial com lista de serviços
+ +--- cuidador.html       # Página da categoria Cuidador
+ +--- faxina.html         # Página da categoria Faxina
+ +--- encanador.html      # Página de detalhe do profissional Encanador
+ +--- styles.css          # Estilos compartilhados
+ +--- script.js           # Funcionalidades JavaScript
 ```
 
 ## Requisitos
