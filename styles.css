@@ -1,3 +1,9 @@
+/* Classes de fundo os serviços */
+.baba-bg, .carona-bg, .cabeleireira-bg, .companhia-bg, .costureira-bg, .cozinheira-bg, .dedetizador-bg, .dentista-bg, .eletricista-bg, .enfermeiro-bg, .farmacia-bg, .funeraria-bg, .jardineiro-bg, .lavadeira-bg, .lixeiro-bg, .marceneiro-bg, .mecanico-bg, .medico-bg, .mercado-bg, .padaria-bg, .pedreiro-bg, .pintor-bg, .sapateiro-bg, .seguranca-bg, .taxi-bg, .tecnico-bg, .veterinario-bg, .cuidador-bg, .faxina-bg, .encanador-bg {
+    background: linear-gradient(to bottom, #add8e6, #ffffff);
+}
+
+/* Estilos gerais */
 body {
     margin: 0;
     padding: 20px;
@@ -11,46 +17,74 @@ body {
 }
 
 h1 {
-    font-size: 3.6em; /* Aumentado ~20% de 3em */
+    font-size: 4.2em; 
     margin: 15px 0;
     font-weight: bold;
 }
 
 h2 {
-    font-size: 2.4em; /* Aumentado ~20% de 2em */
+    font-size: 2.4em;
     margin: 10px 0;
 }
 
 p {
-    font-size: 1.8em; /* Aumentado ~20% de 1.5em */
+    font-size: 1.8em;
     margin: 10px 0;
 }
 
-/* Fundos com gradientes */
 .home-bg {
     background: linear-gradient(to bottom, #add8e6, #ffffff);
 }
-
-.cuidador-bg {
-    background: linear-gradient(to bottom, #d7bde2, #ffffff);
+header h1 {
+    font-size: 3.7em; 
+    font-weight: 900; 
+    color: white; 
+    background-color: #3080db; 
+    padding: 20px 40px; 
+    border-radius: 12px; 
+    width: 100%; 
+    max-width: 1200px; 
+    margin: 0 auto 15px; 
+    line-height: 1.2; 
+    box-sizing: border-box; 
 }
 
-.faxina-bg {
-    background: linear-gradient(to bottom, #b2d8b2, #ffffff);
+header h2 {
+    font-size: 1.7em; 
+	font-weight: 200;
+    color: black; 
+    background-color: #f0f0fb; 
+    padding: 20px 40px; 
+    border-radius: 12px; 
+    width: 100%; 
+    max-width: 1200px; 
+    margin: 0 auto 15px; 
+    line-height: 1.5; 
+	/* letter-spacing: 1px; */
+    box-sizing: border-box; 
 }
 
-.encanador-bg {
-    background: linear-gradient(to bottom, #add8e6, #ffffff);
+footer {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto 0;
+    padding: 10px 10;
+    text-align: center;
+    font-size: 0.8em;
+	font-weight: 500;
+    color: #666; 
+    box-sizing: border-box;
+	background: linear-gradient(to bottom, #ffffff, #add8e6);
 }
 
 /* Grid para serviços na página inicial */
 .services-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Aumentado minmax de 150px para 180px (~20%) */
-    gap: 24px; /* Aumentado ~20% de 20px */
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 24px;
     max-width: 1200px;
     width: 100%;
-    margin: 24px auto; /* Aumentado ~20% de 20px */
+    margin: 24px auto;
 }
 
 .service-item {
@@ -58,13 +92,13 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 18px; /* Aumentado ~20% de 15px */
-    border-radius: 18px; /* Aumentado ~20% de 15px */
+    padding: 18px;
+    border-radius: 18px;
     color: white;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.8em; /* Aumentado ~20% de 1.5em */
-    min-height: 216px; /* Aumentado ~20% de 180px */
+    font-size: 1.8em;
+    min-height: 216px;
     transition: transform 0.2s;
 }
 
@@ -74,11 +108,11 @@ p {
 }
 
 .icon {
-    font-size: 3.6em; /* Aumentado ~20% de 3em */
-    margin-bottom: 12px; /* Aumentado ~20% de 10px */
+    font-size: 3.6em;
+    margin-bottom: 12px;
 }
 
-/* Flexbox para categorias */
+/* Flexbox */
 .category {
     display: flex;
     flex-direction: column;
@@ -92,21 +126,30 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 144px; /* Aumentado ~20% de 120px */
-    height: 144px; /* Aumentado ~20% de 120px */
-    border-radius: 18px; /* Aumentado ~20% de 15px */
+    width: 520px; 
+    height: 200px; 
+    border-radius: 18px;
     color: white;
-    font-size: 2.16em; /* Aumentado ~20% de 1.8em */
-    margin-bottom: 18px; /* Aumentado ~20% de 15px */
+    font-size: 3.6em; 
+    margin-bottom: 18px;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    box-sizing: border-box;
+    padding: 10px;
 }
 
-/* Flexbox para lista de profissionais */
+.category-icon .icon {
+    font-size: 2.4em; 
+}
+
+/* Flexbox profissionais */
 .professionals-list {
     list-style: none;
     padding: 0;
     display: flex;
     flex-direction: column;
-    gap: 18px; /* Aumentado ~20% de 15px */
+    gap: 18px;
     max-width: 600px;
     width: 100%;
     margin: 0 auto;
@@ -114,16 +157,25 @@ p {
 
 .professionals-list li {
     background: white;
-    padding: 18px; /* Aumentado ~20% de 15px */
-    border-radius: 12px; /* Aumentado ~20% de 10px */
-    font-size: 1.8em; /* Aumentado ~20% de 1.5em */
+    padding: 18px;
+    border-radius: 12px;
+    font-size: 1.8em;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border: 2px solid #333;
 }
 
-/* Detalhes do profissional */
+.professionals-list li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.professionals-list li a:hover, .professionals-list li a:focus {
+    text-decoration: underline;
+}
+
+/* Detalhes profissionais */
 .professional-detail {
     display: flex;
     flex-direction: column;
@@ -135,89 +187,103 @@ p {
 
 .phone {
     background: white;
-    padding: 18px; /* Aumentado ~20% de 15px */
-    border-radius: 12px; /* Aumentado ~20% de 10px */
-    font-size: 2.16em; /* Aumentado ~20% de 1.8em */
-    margin: 18px 0; /* Aumentado ~20% de 15px */
+    padding: 18px;
+    border-radius: 12px;
+    font-size: 2.16em;
+    margin: 18px 0;
     border: 2px solid #333;
 }
 
 .note {
     background: #3498db;
     color: white;
-    padding: 24px; /* Aumentado ~20% de 20px */
-    border-radius: 12px; /* Aumentado ~20% de 10px */
-    font-size: 1.8em; /* Aumentado ~20% de 1.5em */
-    margin-top: 24px; /* Aumentado ~20% de 20px */
+    padding: 24px;
+    border-radius: 12px;
+    font-size: 1.8em;
+    margin-top: 24px;
     max-width: 600px;
 }
 
 /* Responsividade para smartphones */
 @media (max-width: 768px) {
     body {
-        padding: 12px; /* Aumentado ~20% de 10px */
+        padding: 12px;
     }
 
     h1 {
-        font-size: 3em; /* Aumentado ~20% de 2.5em */
+        font-size: 3em;
     }
 
     h2 {
-        font-size: 2.16em; /* Aumentado ~20% de 1.8em */
+        font-size: 2.16em;
     }
 
     p {
-        font-size: 1.56em; /* Aumentado ~20% de 1.3em */
+        font-size: 1.56em;
     }
 
     .services-grid {
-        grid-template-columns: repeat(auto-fit, minmax(144px, 1fr)); /* Aumentado ~20% de 120px */
-        gap: 18px; /* Aumentado ~20% de 15px */
+        grid-template-columns: repeat(auto-fit, minmax(144px, 1fr));
+        gap: 18px;
     }
 
     .service-item {
-        min-height: 180px; /* Aumentado ~20% de 150px */
-        font-size: 1.44em; /* Aumentado ~20% de 1.2em */
+        min-height: 180px;
+        font-size: 1.44em;
     }
 
     .icon {
-        font-size: 3em; /* Aumentado ~20% de 2.5em */
+        font-size: 3em;
     }
 
     .category-icon {
-        width: 120px; /* Aumentado ~20% de 100px */
-        height: 120px; /* Aumentado ~20% de 100px */
-        font-size: 1.8em; /* Aumentado ~20% de 1.5em */
+        width: 150px;
+        height: 150px;
+        font-size: 2em;
+    }
+
+    .category-icon .icon {
+        font-size: 3em;
     }
 
     .professionals-list li {
-        font-size: 1.56em; /* Aumentado ~20% de 1.3em */
+        font-size: 1.56em;
         flex-direction: column;
-        gap: 12px; /* Aumentado ~20% de 10px */
+        gap: 12px;
         text-align: center;
     }
 
     .phone {
-        font-size: 1.8em; /* Aumentado ~20% de 1.5em */
+        font-size: 1.8em;
     }
 
     .note {
-        font-size: 1.56em; /* Aumentado ~20% de 1.3em */
+        font-size: 1.56em;
     }
 }
 
 /* Telas muito pequenas (ex.: 320px) */
 @media (max-width: 400px) {
     h1 {
-        font-size: 2.4em; /* Aumentado ~20% de 2em */
+        font-size: 2.4em;
     }
 
     .service-item {
-        min-height: 144px; /* Aumentado ~20% de 120px */
-        font-size: 1.2em; /* Aumentado ~20% de 1em */
+        min-height: 144px;
+        font-size: 1.2em;
     }
 
     .icon {
-        font-size: 2.4em; /* Aumentado ~20% de 2em */
+        font-size: 2.4em;
+    }
+
+    .category-icon {
+        width: 120px;
+        height: 120px;
+        font-size: 1.5em;
+    }
+
+    .category-icon .icon {
+        font-size: 2.5em;
     }
 }
