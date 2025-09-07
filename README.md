@@ -16,6 +16,10 @@ O site utiliza HTML, CSS e JavaScript, com design responsivo e elementos de gran
 
 O e-DOSO é um portal que lista serviços como babá, cuidador, faxina, encanador, entre outros, com foco em acessibilidade. O design utiliza fontes grandes, botões amplos, ícones destacados e alto contraste, otimizado para smartphones e usuários com necessidades especiais.
 
+## Apresentação
+
+Nosso vídeo de divulgação está disponível no Youtube: [![Portal e-DOSO](https://www.youtube.com/embed/AChQ98CeerE?si=NfDX34jh0oLIVjGL)](https://www.youtube.com/embed/AChQ98CeerE?si=NfDX34jh0oLIVjGL)
+
 ## Estrutura
 
 ```
@@ -34,3 +38,4 @@ e-doso/
 
 - **Navegadores**: Navegadores modernos (Google Chrome, Firefox, Safari, Edge) com suporte a HTML5, CSS3 e JavaScript.
 - **Hospedagem**: Conta no Netlify para deploy.
+
